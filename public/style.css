@@ -15,7 +15,8 @@
 
 .main__videos {
     flex-grow: 1;
-    background-color: black;
+    background-color:#464775;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +28,8 @@
 }
 
 .main__right {
-    background-color: #242324;
+    background-color:#242324;
+    color:#fff
     border-left: 1px solid #3D3D42;
 }
 
@@ -38,10 +40,9 @@
     padding: 5px;
 }
 
-.main__controls__block {
-    display: flex;
+.main__controls__block{
+    display:flex;
 }
-
 .main__controls__button {
     display: flex;
     flex-direction: column;
@@ -89,7 +90,7 @@
 
 .main__message_container input {
     flex-grow: 1;
-    background-color: transparent;
+    background-color: #fff;
     border: none;
     color: #F5F5F5;
 }
